@@ -1,0 +1,1350 @@
+2018-12-20 22:20:43 INFO  DispatcherServlet:484 - FrameworkServlet 'webengine': initialization started
+2018-12-20 22:20:43 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'webengine-servlet': startup date [Thu Dec 20 22:20:43 CET 2018]; root of context hierarchy
+2018-12-20 22:20:43 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/webengine-servlet.xml]
+2018-12-20 22:20:46 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [com/webengine/application.properties]
+2018-12-20 22:20:54 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-12-20 22:20:54 INFO  SchedulerFactoryBean:647 - Starting Quartz Scheduler now
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:20:54 INFO  DispatcherServlet:503 - FrameworkServlet 'webengine': initialization completed in 11369 ms
+2018-12-20 22:21:00 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:21:00 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:21:00 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat\webapps\documents
+2018-12-20 22:21:00 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat\webapps\documents
+2018-12-20 22:21:00 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat\webapps\documents is not a valid URL
+2018-12-20 22:21:05 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-20 22:21:05 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-20 22:21:10 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:21:10 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:21:20 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:21:20 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:21:30 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:21:30 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:21:40 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:21:40 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:21:50 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:21:50 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:22:00 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:22:00 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:22:07 INFO  LuceneService:153 - -> addDocument()
+2018-12-20 22:22:07 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Animal.htm
+2018-12-20 22:22:07 INFO  LuceneService:168 - <- addDocument()
+2018-12-20 22:22:10 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:22:10 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:22:10 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-20 22:22:10 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-20 22:22:10 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-20 22:22:20 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:22:20 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:22:21 INFO  XmlWebApplicationContext:862 - Closing WebApplicationContext for namespace 'webengine-servlet': startup date [Thu Dec 20 22:20:43 CET 2018]; root of context hierarchy
+2018-12-20 22:22:21 INFO  DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-12-20 22:22:21 INFO  SchedulerFactoryBean:765 - Shutting down Quartz Scheduler
+2018-12-20 22:58:35 INFO  DispatcherServlet:484 - FrameworkServlet 'webengine': initialization started
+2018-12-20 22:58:35 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'webengine-servlet': startup date [Thu Dec 20 22:58:35 CET 2018]; root of context hierarchy
+2018-12-20 22:58:35 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/webengine-servlet.xml]
+2018-12-20 22:58:38 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [com/webengine/application.properties]
+2018-12-20 22:58:47 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-12-20 22:58:47 INFO  SchedulerFactoryBean:647 - Starting Quartz Scheduler now
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-20 22:58:47 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-20 22:58:48 INFO  DispatcherServlet:503 - FrameworkServlet 'webengine': initialization completed in 12688 ms
+2018-12-20 22:58:50 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:58:50 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:59:00 INFO  PeerNeighborhood:919 - -> checkCandidates()
+2018-12-20 22:59:00 INFO  PeerNeighborhood:1142 - <- checkCandidates()
+2018-12-20 22:59:00 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-20 22:59:00 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-20 22:59:00 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:25:50 INFO  DispatcherServlet:484 - FrameworkServlet 'webengine': initialization started
+2018-12-21 21:25:50 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'webengine-servlet': startup date [Fri Dec 21 21:25:50 CET 2018]; root of context hierarchy
+2018-12-21 21:25:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/webengine-servlet.xml]
+2018-12-21 21:25:52 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [com/webengine/application.properties]
+2018-12-21 21:25:59 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-12-21 21:25:59 INFO  SchedulerFactoryBean:647 - Starting Quartz Scheduler now
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries/] onto handler 'crunchifyController'
+2018-12-21 21:25:59 INFO  DispatcherServlet:503 - FrameworkServlet 'webengine': initialization completed in 8943 ms
+2018-12-21 21:26:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:26:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:26:00 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:26:00 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:26:00 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:26:07 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:26:07 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:26:08 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:26:08 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Animal.htm
+2018-12-21 21:26:08 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:26:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:26:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:26:10 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:26:11 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:26:11 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:26:12 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:26:12 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Cat.htm
+2018-12-21 21:26:12 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:26:12 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:26:13 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:26:13 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:26:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:26:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:26:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:26:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:26:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:26:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:26:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:26:50 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:26:53 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:26:53 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Dog.htm
+2018-12-21 21:26:54 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:26:54 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:27:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:27:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: resource vermes 7.8103583480190455 7.8103583480190455
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: result trust 5.198152679061149 13.008511027080194
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: cats survival-benefits 3.9469683147844066 16.955479341864603
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: relationship flock 3.910966927998558 20.86644626986316
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: lamp :eukaryota 2.955665024630542 23.822111294493702
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: heat leech 6.130773445960751 29.95288474045445
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: sheepdog classification 4.912889411104851 34.8657741515593
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: disorder eyesight 9.025326883579654 43.89110103513895
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: source physiologically 5.238944158282987 49.130045193421935
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: female offspring 7.419630851974087 56.54967604539602
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: meadowlark nutrient 5.927166334586387 62.47684237998241
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: archaeocyatha proportion 9.94108742894298 72.4179298089254
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: foot claw 6.82358828722186 79.24151809614725
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: diet timber 5.374808273358998 84.61632636950624
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: case lybica 7.512627628293716 92.12895399779995
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: variety product 6.046642843708858 98.1755968415088
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: al focus 3.9168569025591733 102.09245374406798
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: tongue martenmastiff 6.414899837000668 108.50735358106866
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: marble difference 8.34437733500667 116.85173091607533
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: stance origin 7.890332665568809 124.74206358164413
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: legend order 7.868836898599235 132.61090048024337
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: resort living 30.90102355977038 163.51192404001375
+2018-12-21 21:27:04 INFO  PeerNeighborhood:252 - Put Word distance: felis attribute 4.859475024392566 168.37139906440632
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: sens alcoholic 25.451966728840986 193.82336579324732
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: worm epilepsy 6.169857972514519 199.99322376576183
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: addition pilot 4.6707850435282 204.66400880929004
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: toes.intelligence postage 7.374887434676424 212.03889624396646
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: pouching growling 13.910291116742039 225.9491873607085
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: security robinrodent 5.394689414874444 231.34387677558294
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: tissue pilot 4.912889411104851 236.2567661866878
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: police dna 6.659368728334245 242.91613491502204
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: set lophophore 5.393494011380191 248.30962892640224
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: :canidae onion 7.828932104114285 256.13856103051654
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: clowder hunting—that 5.925962054333512 262.06452308485007
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: injury shift 8.855128507497446 270.9196515923475
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: host fox 6.713896470494803 277.63354806284235
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: organs.animals trail 7.552134747022215 285.18568280986455
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: mammalia hunter 6.1415238136947305 291.3272066235593
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: cucumber upper 9.993611158493266 301.32081778205253
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: ability indian 5.594655851127281 306.91547363317983
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: angle accident 4.906955912460163 311.82242954564
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: ear basenji 5.422458838607907 317.2448883842479
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: wolfhound interaction 3.43980343980344 320.6846918240513
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: time quinquecirrha 6.355008347032669 327.03970017108395
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: °f english 10.59825356463045 337.6379537357144
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: torso certain.ecdysozoa 6.414899837000668 344.0528535727151
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: distance major 7.567093736938343 351.6199473096534
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: derivation parvovirus 7.3879671580821 359.00791446773553
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: colony zygote 6.868926839948332 365.8768413076839
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: subject cnidaria 4.937067324685397 370.8139086323693
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: individual nap".due 4.906955912460163 375.72086454482945
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: deposit veterinarian 7.8103583480190455 383.5312228928485
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: movement child 7.2618851203243215 390.79310801317285
+2018-12-21 21:27:05 INFO  PeerNeighborhood:252 - Put Word distance: .direction scent 4.859475024392566 395.6525830375654
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: stomach aves 7.597542936186382 403.2501259737518
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: article avalanche 5.91013464576683 409.1602606195186
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: event mastiff 4.937067324685397 414.09732794420404
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: right acetaminophen/paracetamol 62.7472636642009 476.8445916084049
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: eye monkeyspoonbillsquidsquirrel 5.517636552119312 482.36222816052424
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: mixture alarm 8.772568846603082 491.1347970071273
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: land situation 3.458030532117251 494.5928275392446
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: rock estrus 5.158518545942481 499.75134608518704
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: parthenogenesis tester. 8.078130213839675 507.82947629902674
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: pet plant 6.1956851878001835 514.025161486827
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: amphibia gophergorillagrasshopper 5.868147790388795 519.8933092772157
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: clicker research 5.715598177653604 525.6089074548694
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: vision world 5.665665754433252 531.2745732093026
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: lb individual 5.898259202614028 537.1728324119166
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: species sharkgreyhound 3.9168569025591733 541.0896893144758
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: denmark sperm 4.433497536945813 545.5231868514215
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: sport sort 8.791414879568741 554.3146017309903
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: appendage buffaloweaselwhale 6.119710423871113 560.4343121548613
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: sense mating 7.073894670503803 567.5082068253652
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: bass archaeocyatha 8.078130213839675 575.5863370392049
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: iris buffalo 6.119710423871112 581.706047463076
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: population air 4.62553227018452 586.3315797332605
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: vomit nose 6.151017239590599 592.4825969728511
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: vomit amphibian 7.404998846901657 599.8875958197527
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: example service 5.158518545942481 605.0461143656952
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: guide white 62.27262385953238 667.3187382252275
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: today grape 8.10230812742022 675.4210463526477
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: attempt protozoa 6.653382747077309 682.0744290997251
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: rabbit adapting 6.414899837000668 688.4893289367258
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: information seahorse 6.151017239590599 694.6403461763164
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: moulting skeleton 6.512504207142397 701.1528503834587
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: weapon breeder 6.390721923420122 707.5435723068788
+2018-12-21 21:27:06 INFO  PeerNeighborhood:252 - Put Word distance: viewpoint content 9.7917606480739 717.3353329549527
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: experience guineafowlgiraffegoat 4.399808703969392 721.7351416589221
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: "loyal" marble 6.384788424775435 728.1199300836976
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: endoderm border 5.6644703509389975 733.7844004346366
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: presence expression 4.190232925865109 737.9746333605017
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: island arrow 4.692598433351819 742.6672317938535
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: nurturing houndbatbearbeaver 5.663283737176319 748.3305155310298
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: license reason 8.11180155331609 756.442317084346
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: e characteristic 5.978558342282229 762.4208754266282
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: root vilà 7.112209117519232 769.5330845441474
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: arctic genus 6.151017239590599 775.684101783738
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: ingredient mating 9.649079022008468 785.3331808057465
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: familiarity capability 6.151017239590599 791.484198045337
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: region odor 6.304637324386821 797.7888353697239
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: cancer species 5.541200384767462 803.3300357544913
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: big spaniel 3.865612934142919 807.1956486886343
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: building fear 8.463769754232244 815.6594184428665
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: timber mousekangaroo 3.195352214960058 818.8547706578265
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: host chaetognatha 5.8169038219725415 824.6716744797991
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: linnaeus contrast 3.702499423450829 828.3741739032499
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: myth palate 5.6414703473527 834.0156442506026
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: kinorhyncha crane 4.673184727275329 838.688828977878
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: kitten purpose 5.156136528685548 843.8449655065635
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: history relative 5.115423417007893 848.9603889235715
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: level wolfwolverinewombatwoodpeckerwormwrenyakzebra 2.7124004135498385 851.6727893371213
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: one-half winter.menarche 28.989597387277122 880.6623867243985
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: animalia kingdom.examples 3.438616826040761 884.1010035504393
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: deafness jellyfish 3.9469683147844066 888.0479718652236
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: fragmentation.a controversy 7.626450068158743 895.6744219333824
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: dung raisin 7.828932104114285 903.5033540374967
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: brain vermin 6.414899837000668 909.9182538744974
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: form whaleboabobcat 4.916449338356032 914.8347032128535
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: batvipervolevulturewallabywalruswasp inbreeding 6.1486175558434715 920.9833207686969
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: chord symmetry 4.673184727275329 925.6565054959723
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: basset synonym 5.399401139766251 931.0559066357386
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: fungus pet 4.468563775560819 935.5244704112994
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: breast number 4.875589777569602 940.400060188869
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: origin measuring.it 6.867740226185653 947.2678004150547
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: deposit bond 6.393086447177049 953.6608868622318
+2018-12-21 21:27:07 INFO  PeerNeighborhood:252 - Put Word distance: appearance spaniel 3.197734232216991 956.8586210944488
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: capacity tom 6.428327561820222 963.286948656269
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: society mythology 7.14111624949159 970.4280649057606
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: octave finding 28.66736588034878 999.0954307861094
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: block cockapoo 10.832723248349586 1009.928154034459
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: bloat eumetazoans 13.170250656360517 1023.0984046908195
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: rodent .a 6.653382747077309 1029.7517874378968
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: ability middle 7.476038848587868 1037.2278262864847
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: pointer cats 3.458030532117251 1040.685856818602
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: tibetan crane 3.9215686274509802 1044.607425446053
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: sheepdogshrewshrimp problem 5.63437660520396 1050.2418020512569
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: farmer pandagiant 6.151017239590599 1056.3928192908475
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: living retina 8.855128507497446 1065.247947798345
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: sawfishscallopscorpion placement 7.119302859667972 1072.3672506580128
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: tongue dhole 7.404998846901657 1079.7722495049145
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: stict clock 8.353888254402545 1088.126137759317
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: house descendant 6.152203853353279 1094.2783416126704
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: classification sponge 2.8335838913944693 1097.1119255040649
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: storm whisker 6.384788424775435 1103.4967139288403
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: behaviour. hedgehog 9.987677659848575 1113.4843915886888
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: loricifera poison 4.4299024497044295 1117.9142940383933
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: evidence tibetan 6.913901548685946 1124.8281955870793
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: order whale 4.554084417173835 1129.382280004253
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: fluke controversy 5.663283737176318 1135.0455637414293
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: overlap behaviour. 8.51457436592512 1143.5601381073545
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: blue reason 5.175550234762039 1148.7356883421166
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: eastern et 3.4592348123701258 1152.1949231544868
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: cariboucarpcatcaterpillarcatfishcentipedecephalopodchameleoncheetah withers 2.955665024630542 1155.1505881791172
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: mud grain 5.927166334586387 1161.0777545137037
+2018-12-21 21:27:08 INFO  PeerNeighborhood:252 - Put Word distance: gophergorillagrasshopper nettle 3.9215686274509802 1164.9993231411547
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: spitz °c 11.682802304652459 1176.6821254458073
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: kin livestock 5.156136528685548 1181.8382619744928
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: problem wild 5.863504682849781 1187.7017666573424
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: source echinodermata 2.955665024630542 1190.6574316819729
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: risk sheep) 4.448129542018242 1195.1055612239911
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: variation mixture 2.71000072980271 1197.8155619537938
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: color prey 2.8747100801049177 1200.6902720338987
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: .a squirrel 6.820259338118055 1207.5105313720169
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: eumetazoan spermatozoon 13.122997218133056 1220.63352859015
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: derivation condition 6.141523813694731 1226.7750524038447
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: bone kg 6.413704433506414 1233.188756837351
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: bulldog pariah 6.9026333394149475 1240.091390176766
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: chrysaora domain 0.9900990099009901 1241.081489186667
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: frogtrouttunaturkeyturtle .history 4.673184727275329 1245.7546739139425
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: biota abolition 6.653382747077309 1252.4080566610198
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: sustenance course 6.414899837000668 1258.8229564980204
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: eumetazoans nerve 9.895318036898637 1268.7182745349191
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: month hybrid 5.583132636787707 1274.3014071717068
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: desire product 10.973559443620498 1285.2749666153272
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: toddler parthenogenesis 5.825242718446602 1291.1002093337738
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: derivation united 1.477832512315271 1292.578041846089
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: pinnae flyball 6.653382747077309 1299.2314245931664
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: tapeworm hunting 4.107682141729368 1303.3391067348957
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: cleavage bait.reproduction 7.14111624949159 1310.4802229843874
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: replacement mutt-cats 10.618413300899523 1321.0986362852868
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: rat paedomorphism 4.449333822271116 1325.547970107558
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: family meat 2.4443818367867145 1327.9923519443448
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: diabetes food 7.342541475417926 1335.3348934197627
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: dog.pack frogtrouttunaturkeyturtle 5.399401139766251 1340.734294559529
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: pekingese receptor 8.10230812742022 1348.8366026869492
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: hound ancient 6.384788424775435 1355.2213911117246
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: miniature sleep 8.320199421426125 1363.5415905331508
+2018-12-21 21:27:09 INFO  PeerNeighborhood:252 - Put Word distance: milk subject 8.255982815574233 1371.797573348725
+2018-12-21 21:27:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: male hearing 6.152203853353279 1377.9497772020784
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: moggy effect 8.546997964427261 1386.4967751665056
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: compare course 6.395468464433982 1392.8922436309397
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: aggression .senses 4.916449338356031 1397.8086929692956
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: size legend 6.393086447177049 1404.2017794164726
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: egyptian sport 7.383185457078038 1411.5849648735507
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: air superphylum 4.350946752810072 1415.9359116263608
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: dhole lion 2.467931522216261 1418.4038431485772
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: cm meter 0.9900990099009901 1419.3939421584782
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: point month 5.847015234197775 1425.240957392676
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: children.canine dung 5.399401139766251 1430.6403585324422
+2018-12-21 21:27:10 INFO  PeerNeighborhood:252 - Put Word distance: sperm reference 4.915253934861778 1435.555612467304
+2018-12-21 21:27:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:27:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:27:21 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:27:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:27:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:27:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:27:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:27:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:27:51 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:28:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:28:01 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:28:04 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:28:04 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:28:04 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:28:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:28:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:28:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:28:20 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:28:20 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:28:20 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:28:21 INFO  CrunchifyController:1015 - -> search(searchParam: null)
+2018-12-21 21:28:21 INFO  CrunchifyController:1114 - <- search()
+2018-12-21 21:28:22 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:28:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:28:30 INFO  CrunchifyController:1015 - -> search(searchParam: cat)
+2018-12-21 21:28:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:28:30 INFO  SearchService:453 - -> search()
+2018-12-21 21:28:30 INFO  LuceneService:176 - -> search(queryString: cat)
+2018-12-21 21:28:30 INFO  LuceneService:117 - -> init()
+2018-12-21 21:28:30 INFO  LuceneService:118 - Using index for lucene index 
+2018-12-21 21:28:30 INFO  LuceneService:120 - <- init()
+2018-12-21 21:28:30 INFO  LuceneService:197 - Time: 18ms
+2018-12-21 21:28:30 INFO  LuceneService:219 - <- search(): 3
+2018-12-21 21:28:31 INFO  CrunchifyController:1114 - <- search()
+2018-12-21 21:28:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:28:40 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:28:40 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:28:40 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:28:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:28:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:28:51 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:29:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:29:00 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:29:00 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:29:00 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:29:01 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:33:10 INFO  DispatcherServlet:484 - FrameworkServlet 'webengine': initialization started
+2018-12-21 21:33:10 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'webengine-servlet': startup date [Fri Dec 21 21:33:10 CET 2018]; root of context hierarchy
+2018-12-21 21:33:10 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/webengine-servlet.xml]
+2018-12-21 21:33:12 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [com/webengine/application.properties]
+2018-12-21 21:33:19 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-12-21 21:33:19 INFO  SchedulerFactoryBean:647 - Starting Quartz Scheduler now
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:33:19 INFO  DispatcherServlet:503 - FrameworkServlet 'webengine': initialization completed in 9421 ms
+2018-12-21 21:33:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:33:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:33:20 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:33:20 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:33:20 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:33:24 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:33:24 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:33:25 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:33:25 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Animal.htm
+2018-12-21 21:33:25 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:33:27 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:33:27 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:33:27 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:33:28 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:33:28 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Cat.htm
+2018-12-21 21:33:28 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:33:28 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:33:29 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:33:29 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:33:29 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:33:29 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Dog.htm
+2018-12-21 21:33:29 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:33:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:33:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:33:30 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: guide work 61.26943115188563 61.26943115188563
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: relative wall 3.9469683147844066 65.21639946667003
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: opisthokonts breeds 6.151017239590599 71.36741670626063
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: heron biologist 8.223076998252953 79.59049370451358
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: kinorhyncha colleague 7.3879671580821 86.97846086259568
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: muscle seahorse 5.151424803793741 92.12988566638943
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: function orthonectida 6.636351058257752 98.76623672464717
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: milk interaction 7.235774612620794 106.00201133726796
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: job eaglebandicootbarnaclebasiliskbarracuda 4.1854512248610485 110.18746256212901
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: bait.reproduction .puppy 6.916061064234503 117.10352362636351
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: estrus control 4.673184727275329 121.77670835363884
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: healthily fashion 11.241594181844087 133.01830253548292
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: .usage part 5.82693116232848 138.8452336978114
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: subregnum metazoan 8.554040243048654 147.39927394086007
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: timber gap 5.800617573575584 153.19989151443565
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: wolf.the gastrotricha 4.673184727275329 157.87307624171098
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: fight anenomes 6.151017239590599 164.02409348130158
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: "vocabulary wall 2.467931522216261 166.49202500351782
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: history urchin 4.189037522370856 170.68106252588868
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: panda lover 7.58580608649863 178.2668686123873
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: wikipedia shape 4.761623943308342 183.02849255569564
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: africa robinrodent 4.1854512248610485 187.2139437805567
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: list expression 3.438616826040761 190.65256060659746
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: clam sealelkemuenglish 5.424800827099677 196.07736143369715
+2018-12-21 21:33:33 INFO  PeerNeighborhood:252 - Put Word distance: focus appendage 8.317852220291245 204.3952136539884
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: dane fish 4.673184727275329 209.06839838126373
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: gnathostomulida eye 4.5882694193826605 213.6566678006464
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: trust segment 6.383593021281181 220.04026082192757
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: survival-benefits jelly 3.9469683147844066 223.987229136712
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: image whiskers 9.7917606480739 233.7789897847859
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: contraband platyzoa 5.663283737176318 239.44227352196222
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: spiralia soul 3.9215686274509802 243.3638421494132
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: dichromat line 11.869034906514337 255.23287705592753
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: dozen commando 60.90172831154398 316.1346053674715
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: bird europe 4.154231539079261 320.2888369065508
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: alley forward 9.849939242290242 330.13877614884103
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: stomachs.treats gnu 8.376870764488837 338.5156469133299
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: hour area 6.619711407600895 345.1353583209308
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: art wild 6.653382747077309 351.7887410680081
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: major expert 7.806798420767865 359.59553948877596
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: rearrangement clam 8.37328446697903 367.968823955755
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: cross-species branch 5.925962054333512 373.8947860100885
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: ventral nomenclature 7.861425533596451 381.75621154368497
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: batvipervolevulturewallabywalruswasp limnognathia 3.9215686274509802 385.67778017113596
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: coexist ° 9.346369454550658 395.0241496256866
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: vision pair 8.63358076687929 403.6577303925659
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: skill owner 5.191252900996885 408.84898329356275
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: briar latin 6.820259338118055 415.6692426316808
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: ova gastrotrichs 11.616257573845427 427.2855002055262
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: upland gene 6.388322239672993 433.6738224451992
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: briar vocalization 6.151017239590599 439.8248396847898
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: definition synonym 7.14111624949159 446.9659559342814
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: angelfish bit 6.414899837000668 453.3808557712821
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: bpm fear 4.937067324685397 458.3179230959675
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: collection location 4.668420519771273 462.98634361573875
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: ova reproductive 13.218215133399813 476.2045587491386
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: absence tuft 6.876055742087274 483.08061449122584
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: onion al 5.877641216284664 488.9582557075105
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: dog germ 9.365988384181017 498.3242440916915
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: fungus epilepsy 6.9795755291853006 505.3038196208768
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: archaeocyatha case 8.075800166530241 513.379619787407
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: fact bovidbuffalo 6.916061064234503 520.2956808516416
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: building lip 9.501352935948407 529.79703378759
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: host sleep 9.539478991585185 539.3365127791751
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: navigation finding 10.979185448263678 550.3156982274388
+2018-12-21 21:33:34 INFO  PeerNeighborhood:252 - Put Word distance: cycliophora "pack 5.927166334586387 556.2428645620251
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: peanut cancer 5.829313179585412 562.0721777416105
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: hearing snow 3.702499423450829 565.7746771650613
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: hip angelfish 6.151017239590599 571.925694404652
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: c. combination 4.878048780487805 576.8037431851398
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: comb reference 3.43980343980344 580.2435466249432
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: mollusk alpha 5.399401139766251 585.6429477647094
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: poison floppier 6.355881292803076 591.9988290575125
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: side bugbulldogbull 4.673184727275329 596.6720137847879
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: floppier .verginelli 2.955665024630542 599.6276788094184
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: europe l 7.298499414636468 606.9261782240549
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: cycliophora person 5.990560258107335 612.9167384821621
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: penguin archenteron 6.763285024154589 619.6800235063167
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: legend flap 9.986068798436634 629.6660923047534
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: lophophore form 2.7124004135498385 632.3784927183033
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: force domestication 4.390453871538572 636.7689465898419
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: protozoon tail 5.301522071196567 642.0704686610385
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: signal middle 8.13121525939258 650.201683920431
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: falconferretfinchfireflyfishflamingofleaflyflyingfishfowlfoxfrog f) 9.346369454550658 659.5480533749817
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: playfulness weight 5.422401143352549 664.9704545183342
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: bloat pike 9.016019117281255 673.9864736356155
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: mixture height 5.34344544645819 679.3299190820737
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: .verginelli ° 11.326567474352638 690.6564865564263
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: language toy 3.6223483230622167 694.2788348794885
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: island pocket 4.935863044432522 699.214697923921
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: catsilkworm uterus 6.151017239590599 705.3657151635116
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: catling cancer 8.394964048610802 713.7606792121223
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: platyhelminthes pigeon 3.195352214960058 716.9560314270824
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: catwildebeest yard 3.945764034531532 720.9017954616139
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: photograph scent 7.190453369163989 728.0922488307779
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: emotion rotifer 3.702499423450829 731.7947482542287
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: kitekiwikoalakoikomodo goblet 3.9215686274509802 735.7163168816796
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: mite phoronida 5.424800827099677 741.1411177087793
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: mastiff deposit 3.195352214960058 744.3364699237394
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: houndbatbearbeaver latter 4.937067324685397 749.2735372484248
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: case taste 7.85673096253009 757.1302682109548
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: documentation scientific 3.0356911935859303 760.1659594045407
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: phylum nemertea 2.7936219859994815 762.9595813905402
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: sprinting brush 6.9026333394149475 769.8622147299551
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: slugsea diabetes 7.142320529744465 777.0045352596995
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: predator breed.the 6.184186905131197 783.1887221648308
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: change gnu 1.71990171990172 784.9086238847325
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: construction "man 6.513072302354641 791.4216961870872
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: jurisdiction octave 28.642986247111867 820.064682434199
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: breeding poodle 7.298499414636467 827.3631818488354
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: catling hazard 30.137202685677718 857.5003845345132
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: example scale 5.6272823503904705 863.1276668849036
+2018-12-21 21:33:35 INFO  PeerNeighborhood:252 - Put Word distance: bitch rock 5.1803319357661 868.3079988206697
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: story daylight 6.414899837000668 874.7228986576704
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: cheek upland 5.925962054333512 880.6488607120039
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: ecdysozoa status 2.7124004135498385 883.3612611255537
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: supergroup color 5.420019126095616 888.7812802516494
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: kinorhyncha nap 6.414899837000668 895.1961800886501
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: kin ecdysis 3.945764034531532 899.1419441231816
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: hind dichromat 3.945764034531532 903.0877081577131
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: platyhelminthes bitch 4.6755667445322615 907.7632749022454
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: % endoderm 8.792790345852787 916.5560652480982
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: seahorse vision 6.274582734692164 922.8306479827904
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: starfish veterinarian. 5.663283737176318 928.4939317199668
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: mammal commando 58.12819703859593 986.6221287585627
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: .dogs role 3.68068603362721 990.3028147921899
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: digitigrade major 9.963499746268031 1000.2663145384579
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: wall percent 6.873673724830342 1007.1399882632883
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: host classification 7.3449234926748606 1014.4849117559631
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: resort photosynthesis 28.33440283487718 1042.8193145908403
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: hierarchy flea 6.763285024154589 1049.582599614995
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: collie price 6.937265128602132 1056.519864743597
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: ship ratkingfisher 4.673184727275329 1061.1930494708724
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: bloat menace 9.775924362748597 1070.968973833621
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: bloodline bernard 8.35387076090254 1079.3228445945235
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: evidence paw 6.633986534500824 1085.9568311290243
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: bloodhound block 9.433933562866372 1095.3907646918906
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: nerve man 5.179136532271846 1100.5699012241623
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: bastet explanation 4.448129542018242 1105.0180307661806
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: daily clowder 10.058328233641655 1115.0763589998223
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: balance spidertree 5.423596546846802 1120.499955546669
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: colour meerkatmink 3.8656129341429195 1124.365568480812
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: prey gnathifera.lophotrochozoa 5.7935758013743435 1130.1591442821864
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: egyptians bobolinkbooby 5.925962054333512 1136.0851063365199
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: gnathostomulida percent 5.399401139766251 1141.4845074762861
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: founder porifera 5.683901723505684 1147.1684091997918
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: foot story 5.398223229772004 1152.5666324295637
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: colour sterilization 4.916449338356031 1157.4830817679197
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: mud nurture 6.119710423871112 1163.6027921917907
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: white daylight 7.626450068158743 1171.2292422599494
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: .dogs companionship 5.636758622460894 1176.8660008824104
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: backward linnaeus 6.735140877127912 1183.6011417595382
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: rotifer pterobranchia 1.9607843137254901 1185.5619260732637
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: briar saint 4.937067324685397 1190.498993397949
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: germany dragonkrill 7.356643019740567 1197.8556364176898
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: origin briar 6.9002336556678205 1204.7558700733575
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: western vulpes 6.383593021281181 1211.1394630946388
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: brain crane 4.935863044432522 1216.0753261390714
+2018-12-21 21:33:36 INFO  PeerNeighborhood:252 - Put Word distance: object asia 4.916449338356031 1220.9917754774274
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: deviltermiteternterrier timber 3.195352214960058 1224.1871276923875
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: vendian :canidae 5.394689414874444 1229.581817107262
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: pupil .groups 7.828932104114285 1237.4107492113762
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: order purple/violet 6.576809067439884 1243.987558278816
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: new gaping 4.917635952118711 1248.9051942309347
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: fragmentation.a supergroup 4.673184727275329 1253.5783789582101
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: sporting hedgehog 7.374887434676424 1260.9532663928865
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: acuity papillon 23.06186147270418 1284.0151278655906
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: lip yorkshire 7.142320529744465 1291.157448395335
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: flyball site 0.9900990099009901 1292.147547405236
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: iris synonym 7.626450068158742 1299.7739974733947
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: western predator 5.868286383853842 1305.6422838572485
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: thought training 7.62884975190587 1313.2711336091543
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: variety layer 5.62502177277314 1318.8961553819274
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: expert coats.terriers 6.151017239590599 1325.047172621518
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: hip desire 12.00558848636895 1337.052761107887
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: distinction repertoire 5.663283737176318 1342.7160448450632
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: lb hydrophobia 7.404998846901657 1350.1210436919648
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: dhole event 5.663283737176318 1355.784327429141
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: cross-species self-defense 6.390704429920116 1362.1750318590612
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: classis familiarity 5.868147790388795 1368.04317964945
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: being section 2.224666911135558 1370.2678465605854
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: vibrissa mouth 8.052427555605496 1378.3202741161908
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: bryozoa plant 2.912621359223301 1381.2328954754141
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: satisfaction forward 10.469470562918506 1391.7023660383327
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: flash "guardian" 6.413695556747793 1398.1160615950805
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: bitch remains 4.917635952118711 1403.0336975471992
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: carnivora percentage 7.141418436007454 1410.1751159832065
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: cats warbler 4.448129542018242 1414.6232455252248
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: prey mongrel 6.697796383783768 1421.3210419090085
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: poochie segment 7.112209117519232 1428.4332510265278
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: effect sea 5.989469861698473 1434.4227208882264
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: growth endoderm 4.161273311280502 1438.5839941995068
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: subphylum acceptance 8.590041629834502 1447.1740358293414
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: jaw big 1.9607843137254901 1449.134820143067
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: feline rat 3.9215686274509802 1453.056388770518
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: placement meat 6.512486713642391 1459.5688754841603
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: tapeworm owner 6.147457312339419 1465.7163327964997
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: maine cyprus.a 8.881627078964053 1474.5979598754639
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: glycolysis.origin red 6.901429059162073 1481.499388934626
+2018-12-21 21:33:37 INFO  PeerNeighborhood:252 - Put Word distance: trust portuguese 2.467931522216261 1483.9673204568423
+2018-12-21 21:33:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:33:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:33:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:33:50 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:34:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:34:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:34:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:34:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:34:50 INFO  DispatcherServlet:484 - FrameworkServlet 'webengine': initialization started
+2018-12-21 21:34:50 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'webengine-servlet': startup date [Fri Dec 21 21:34:50 CET 2018]; root of context hierarchy
+2018-12-21 21:34:50 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/webengine-servlet.xml]
+2018-12-21 21:34:53 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [com/webengine/application.properties]
+2018-12-21 21:35:02 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-12-21 21:35:02 INFO  SchedulerFactoryBean:647 - Starting Quartz Scheduler now
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:35:02 INFO  DispatcherServlet:503 - FrameworkServlet 'webengine': initialization completed in 12079 ms
+2018-12-21 21:35:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:35:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:35:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:35:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:35:20 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:35:20 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:35:20 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:35:25 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:35:25 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:35:26 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:35:26 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Animal.htm
+2018-12-21 21:35:26 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:35:28 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:35:29 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:35:29 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:35:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:35:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:35:30 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:35:30 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Cat.htm
+2018-12-21 21:35:30 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:35:31 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:35:31 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:35:31 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:35:32 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:35:32 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Dog.htm
+2018-12-21 21:35:32 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:35:32 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:35:34 INFO  PeerNeighborhood:252 - Put Word distance: trinomial physiologically 6.333544456359181 6.333544456359181
+2018-12-21 21:35:34 INFO  PeerNeighborhood:252 - Put Word distance: systematic leopardsockeye 7.650614056257439 13.98415851261662
+2018-12-21 21:35:34 INFO  PeerNeighborhood:252 - Put Word distance: annelid bob 7.7824698367020915 21.76662834931871
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: trust owner 4.632523079125021 26.399151428443734
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: master dhole 4.673184727275329 31.072336155719064
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: dragon nutrient 4.937067324685397 36.00940348040446
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: buzzardcamel receptor 6.414899837000668 42.424303317405126
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: characteristics origin 6.90023365566782 49.324536973072945
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: leader dozen 4.673184727275329 53.99772170034827
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: place subregnum 3.702499423450829 57.7002211237991
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: partner race 5.664488017429194 63.364709141228296
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: daylight octopus 7.404998846901657 70.76970798812995
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: vendian something 6.0890755650256025 76.85878355315555
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: catling crazy 7.379599159568231 84.23838271272378
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: swallowswanswiftswordfish sighthounds 5.175550234762039 89.41393294748582
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: daylight papillon 20.388752038234266 109.80268498572008
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: hissing england 12.76736082651463 122.57004581223471
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: trochophore meat 4.028189887234049 126.59823569946876
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: playfulness "loyal" 3.458030532117251 130.05626623158602
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: night turn 8.132419539645454 138.18868577123146
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: week bilaterians 8.322546622561005 146.51123239379245
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: alley bed 7.62884975190587 154.14008214569833
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: canis gaping 7.86851927574519 162.00860142144353
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: stomach buzzardcamel 6.414899837000668 168.4235012584442
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: testing ecdysozoa 4.912889411104851 173.33639066954905
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: descendant american 1.2345679012345678 174.5709585707836
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: sustenance iditarod 6.916061064234503 181.4870196350181
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: states selection 5.949962742969973 187.43698237798807
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: mechanism color 4.204864930937538 191.6418473089256
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: buzzardcamel breeder 4.912889411104851 196.55473672003046
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: favor attempt 3.945764034531532 200.50050075456198
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: nature light 6.135633839134116 206.6361345936961
+2018-12-21 21:35:35 INFO  PeerNeighborhood:252 - Put Word distance: .all backbone 9.847530681784491 216.4836652754806
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: sheepdogopossumorangutanorcaostrichotterowl savolainen 4.937067324685397 221.420732600166
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: trinomial article 4.3102187810427015 225.73095138120868
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: sharkgreyhound member 3.9215686274509802 229.65252000865965
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: meter family 5.991356218216472 235.64387622687613
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: birth ear 6.713216743347077 242.35709297022322
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: framework agreement 9.289395140587192 251.64648811081042
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: toy species 3.197734232216991 254.8442223430274
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: ectoderm fluke 7.625254664664489 262.4694770076919
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: coin carnivora 6.390704429920116 268.860181437612
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: scale number 5.8970549223611535 274.7572363599732
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: starfish display 5.424800827099677 280.18203718707286
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: tract "pack" 12.419152563867712 292.6011897509406
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: toes.intelligence interior 8.827346629916896 301.4285363808575
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: metazoan habitation 12.388761108102262 313.81729748895975
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: dingo obligate 6.414899837000668 320.23219732596044
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: phoronida ermine 3.195352214960058 323.4275495409205
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: name "elbows 9.283409159330255 332.7109587002507
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: nose hemichordata 4.673184727275329 337.38414342752606
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: poochie hunt.dogs 7.67796854852689 345.06211197605296
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: entoprocta trainability 3.9469683147844066 349.00908029083735
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: iditarod endoderm 5.769422933904943 354.7785032247423
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: wildlife cavity 8.13121525939258 362.9097184841349
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: superphylum nut 6.888660399030883 369.79837888316575
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: backward cranecrane 7.059760868850102 376.85813975201586
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: dozen show 5.6585195296722635 382.51665928168813
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: anenomes habitation 6.414899837000668 388.9315591186888
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: annelida excision 6.107973574183359 395.03953269287217
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: cockapoo coelom 8.031632786437282 403.07116547930946
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: nerve nap".due 4.916449338356031 407.9876148176655
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: damage trochophore 3.9469683147844066 411.93458313244986
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: dragon goblet 0.9900990099009901 412.92468214235083
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: bastet big 6.653382747077309 419.57806488942816
+2018-12-21 21:35:36 INFO  PeerNeighborhood:252 - Put Word distance: flap veterinarian 7.446282422174418 427.0243473116026
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: jaw block 8.228691355586294 435.2530386671889
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: similarity colony 4.448129542018242 439.70116820920714
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: foot prick 6.901429059162073 446.6025972683692
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: result house 7.87091895949232 454.4735162278615
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: warbler cave 4.673184727275329 459.14670095513685
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: leopardsockeye neutering 6.838833094213294 465.9855340493501
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: natufian response 6.146253032086545 472.13178708143664
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: leg humans 4.449333822271116 476.58112090370776
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: search respect 0.9900990099009901 477.57121991360873
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: dozen subphylum 6.385992705028309 483.957212618637
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: excellence classification 10.652479025209749 494.60969164384676
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: subregnum landing.cats 4.673184727275329 499.2828763711221
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: sphere distinction 6.390704429920116 505.6735808010422
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: behaviour. menace 8.245962550123238 513.9195433511654
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: beat omnivore 7.94975851468503 521.8693018658505
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: acid doggie 5.175550234762039 527.0448521006125
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: dna ailment 3.9215686274509802 530.9664207280634
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: elephant "pack" 10.495871752320973 541.4622924803845
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: section baby 5.663283737176319 547.1255762175608
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: depth rationale 6.633969041000819 553.7595452585616
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: opisthokonts exploration 6.653382747077309 560.412928005639
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: horse disease 8.253667121934363 568.6665951275733
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: vermin security 7.404998846901657 576.0715939744749
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: institution agreement 8.112988167078768 584.1845821415537
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: separation sphere 8.112988167078768 592.2975703086325
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: physiologically shape 7.404998846901657 599.7025691555342
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: bovidbuffalo badger 0.9900990099009901 600.6926681654352
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: archaeocyatha pike 8.078130213839676 608.7707983792749
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: tylenol mating 62.59163269820201 671.3624310774769
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: period addition 5.113110356778313 676.4755414342552
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: institution % 9.657865845160984 686.1334072794161
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: parasite yorkshire 5.78566927610104 691.9190765555172
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: avalanche fear 4.673184727275329 696.5922612827926
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: kingdom:animalia onychophora 1.2345679012345678 697.8268291840271
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: mark °f 7.624068050901809 705.4508972349289
+2018-12-21 21:35:37 INFO  PeerNeighborhood:252 - Put Word distance: choanoflagellates blastula 5.151424803793741 710.6023220387226
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: overlap combat 27.89099111908489 738.4933131578075
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: cucumber bugbeebeetlebirdbison 4.673184727275329 743.1664978850829
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: poochie pet 4.519807743977072 747.6863056290599
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: comparison attempt 7.6434817569783 755.3297873860382
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: example postage 5.8970549223611535 761.2268423083993
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: svaerdborg rat 5.424800827099677 766.6516431354991
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: comparison crania 8.866995073891625 775.5186382093907
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: difference object 5.905352944762768 781.4239911541534
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: mother cd 5.683901723505684 787.1078928776591
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: system sighthounds 5.391077005011015 792.49896988267
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: mammalia history 6.626857632361883 799.1258275150319
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: labrador interest 5.389907713870382 804.5157352289023
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: show master 5.907752628509897 810.4234878574122
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: hunt.dogs measuring.it 7.833713805118347 818.2572016625305
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: proportion owner 5.108484071594739 823.3656857341252
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: cnidaria meter 4.937067324685397 828.3027530588106
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: fox guineafowlgiraffegoat 4.432302133451559 832.7350551922622
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: weimaraner status 5.423596546846802 838.158651739109
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: motion feral 7.29827014918537 845.4569218882943
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: deafness socialization 8.77728057149489 854.2342024597892
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: horsehair derivation 5.39349401138019 859.6276964711694
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: graptolite layer 7.643481756978298 867.2711782281477
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: pike frequency 6.1103555914402925 873.3815338195881
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: pilot attack 3.197734232216991 876.5792680518051
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: order fluke 4.916449338356032 881.4957173901612
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: gastrotrichs chart 5.663283737176318 887.1590011273375
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: mastiff germany 5.927166334586387 893.0861674619239
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: steelhead shelter 4.937067324685397 898.0232347866092
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: appearance cue 4.419222410045883 902.4424571966551
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: ectoderm oxoyster 6.868909517326285 909.3113667139814
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: society sheepdogopossumorangutanorcaostrichotterowl 4.673184727275329 913.9845514412568
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: "vocabulary game 5.927166334586387 919.9117177758432
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: tardigrada deuterostomes 2.7124004135498385 922.624118189393
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: bedford .setters 6.414899837000668 929.0390180263937
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: outdoor grain 6.917265344487377 935.9562833708811
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: nature aggression 2.467931522216261 938.4242148930974
+2018-12-21 21:35:38 INFO  PeerNeighborhood:252 - Put Word distance: area indian 3.9603960396039604 942.3846109327014
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: photosynthesis cycle 8.729441191088583 951.11405212379
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: synonym fight 8.099908443673092 959.2139605674631
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: marsupial case 4.915253934861778 964.1292145023249
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: adulthood forward 8.817857445076982 972.9470719474018
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: compare sphynx 10.279494150488182 983.22656609789
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: eyebrow basset 9.289395140587192 992.5159612384772
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: field dung 4.796750222376892 997.3127114608541
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: ground arrow 4.433497536945813 1001.7462089977998
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: segment socialization 8.992824664365912 1010.7390336621658
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: consideration winter.menarche 5.158518545942481 1015.8975522081082
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: coat defect 1.9801980198019802 1017.8777502279102
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: contraband mammal 6.1486175558434715 1024.0263677837536
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: medication aardvark 62.12032980521613 1086.1466975889698
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: phylum:chordata foot 2.9544696211362877 1089.101167210106
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: content duck 7.34718458295694 1096.448351793063
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: charity savolainen 7.141116249491589 1103.5894680425547
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: anus understanding 3.2147659210365482 1106.8042339635913
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: basal vegetarian 5.927166334586387 1112.7314002981777
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: warbler meerkatmink 0.9900990099009901 1113.7214993080788
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: presence flatworm 2.5503573749187787 1116.2718566829976
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: ovary detail 6.053782170718349 1122.3256388537159
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: forepaw .usage 6.636351058257752 1128.9619899119737
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: poisoning motile 15.770222586129632 1144.7322124981033
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: security respect 4.906955912460163 1149.6391684105636
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: badger dislike 5.394689414874444 1155.033857825438
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: rotifera salmon 5.399401139766251 1160.4332589652042
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: england ground 4.692598433351819 1165.125857398556
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: kind ship 6.151017239590599 1171.2768746381466
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: dog.pack mud 6.119710423871112 1177.3965850620177
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: half carnivora 7.31281996861653 1184.7094050306343
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: cucumber ectoderm 6.897833971920691 1191.607239002555
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: alarm testing 8.227075683601875 1199.8343146861569
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: consideration derivation 8.833306240915205 1208.667620927072
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: attack gaping 5.752650931622553 1214.4202718586946
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: anything manner 5.6644703509389975 1220.0847422096335
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: gastrotricha darter 2.955665024630542 1223.040407234264
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: collagen commando 63.311959136132316 1286.3523663703963
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: half way 7.993595511671883 1294.3459618820682
+2018-12-21 21:35:39 INFO  PeerNeighborhood:252 - Put Word distance: site tyrannosaurusurialvampire 4.673184727275329 1299.0191466093436
+2018-12-21 21:35:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: duck rotifera 7.433485309659917 1306.4526319190036
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: aurora evolution 8.754314038866884 1315.2069459578704
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: hunter cheek 6.730242530496666 1321.9371884883672
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: l .groups 7.030853736877745 1328.968042225245
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: mud sens 5.663283737176318 1334.6313259624212
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: body cross-species 5.7739923822527075 1340.405318344674
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: anima fungus 4.673184727275329 1345.0785030719494
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: flock flatworm 4.513523705901202 1349.5920267778506
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: rule resort 27.765502263773037 1377.3575290416236
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: coon counterpart 6.9026333394149475 1384.2601623810385
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: bugbeebeetlebirdbison matrix 9.967959095987304 1394.2281214770258
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: ear captivity 7.655058458715125 1401.8831799357408
+2018-12-21 21:35:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: fact insecta 8.34915903601073 1410.2323389717515
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: gaping deal 7.383185457078039 1417.6155244288295
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: framework stimulus 9.732880697341356 1427.348405126171
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: .purebreds storm 8.833306240915205 1436.181711367086
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: reproductive ratkingfisher 6.653382747077309 1442.8350941141634
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: poochie minute 5.878810507425296 1448.7139046215887
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: arrow master 3.438616826040761 1452.1525214476294
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: companionship bristle 8.353888254402545 1460.506409702032
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: holocene source 9.365560553770479 1469.8719702558024
+2018-12-21 21:35:40 INFO  PeerNeighborhood:252 - Put Word distance: approach cardiomyopathy 8.710027485012095 1478.5819977408144
+2018-12-21 21:35:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:35:50 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:36:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:36:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:36:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:36:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:36:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:36:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:36:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:36:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:36:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:36:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:36:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:36:50 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:37:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:37:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:37:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:37:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:37:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:37:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:37:22 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:37:22 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:37:22 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:37:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:37:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:37:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:37:40 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:37:40 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:37:40 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:37:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:37:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:37:50 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:38:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:38:00 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:38:00 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:38:00 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:38:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:38:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:38:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:38:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:38:20 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:38:20 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:38:20 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:38:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:38:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:38:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:38:40 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:38:40 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:38:40 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:38:40 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:38:40 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:38:50 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:38:50 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:39:00 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:39:00 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:39:00 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:39:00 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:39:00 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:39:10 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:39:10 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:39:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:39:20 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:39:20 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:39:20 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:39:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:46:05 INFO  DispatcherServlet:484 - FrameworkServlet 'webengine': initialization started
+2018-12-21 21:46:05 INFO  XmlWebApplicationContext:510 - Refreshing WebApplicationContext for namespace 'webengine-servlet': startup date [Fri Dec 21 21:46:05 CET 2018]; root of context hierarchy
+2018-12-21 21:46:05 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from ServletContext resource [/WEB-INF/webengine-servlet.xml]
+2018-12-21 21:46:07 INFO  PropertyPlaceholderConfigurer:172 - Loading properties file from class path resource [com/webengine/application.properties]
+2018-12-21 21:46:14 INFO  DefaultLifecycleProcessor:341 - Starting beans in phase 2147483647
+2018-12-21 21:46:14 INFO  SchedulerFactoryBean:647 - Starting Quartz Scheduler now
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addEntry/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/search/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntry/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntries/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferToken/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/addFirstRingPeer/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/delEntries/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/ping/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/listEntries/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/modifyRingPeerConnection/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendLastEntryToNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/transferEntriesLB/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/sendFirstEntryToPrevNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkCapacityNextNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/searchRingDocuments/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/answerAllocateRingNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkLoadNeighbour/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/clearTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/checkTokenRegistry/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours.*] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DefaultAnnotationHandlerMapping:315 - Mapped URL path [/allocateRingLDNeighbours/] onto handler 'crunchifyController'
+2018-12-21 21:46:14 INFO  DispatcherServlet:503 - FrameworkServlet 'webengine': initialization completed in 9122 ms
+2018-12-21 21:46:20 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:46:20 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:46:20 INFO  CrawlerController2:150 - initializing Controller... Seeds: C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:46:20 INFO  CrawlerController2:163 - addSeeds called C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents
+2018-12-21 21:46:20 INFO  UrlHelper:22 - C:\Users\makube\workspace-Peer\webengine\tomcat/webapps/documents is not a valid URL
+2018-12-21 21:46:24 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:46:24 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:46:24 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:46:24 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Animal.htm
+2018-12-21 21:46:25 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:46:26 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Animal.htm)
+2018-12-21 21:46:27 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:46:27 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:46:28 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:46:28 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Cat.htm
+2018-12-21 21:46:28 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:46:28 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Cat.htm)
+2018-12-21 21:46:29 INFO  MyCrawler:139 - -> visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:46:29 INFO  MyCrawler:152 - Creategraphdb 1
+2018-12-21 21:46:29 INFO  LuceneService:153 - -> addDocument()
+2018-12-21 21:46:29 INFO  LuceneService:384 - updating http://192.168.43.114:8080/documents/Dog.htm
+2018-12-21 21:46:29 INFO  LuceneService:168 - <- addDocument()
+2018-12-21 21:46:30 INFO  PeerNeighborhood:936 - -> checkCandidates()
+2018-12-21 21:46:30 INFO  PeerNeighborhood:1159 - <- checkCandidates()
+2018-12-21 21:46:30 INFO  MyCrawler:855 - <- visit(http://192.168.43.114:8080/documents/Dog.htm)
+2018-12-21 21:46:34 INFO  XmlWebApplicationContext:862 - Closing WebApplicationContext for namespace 'webengine-servlet': startup date [Fri Dec 21 21:46:05 CET 2018]; root of context hierarchy
+2018-12-21 21:46:34 INFO  DefaultLifecycleProcessor:356 - Stopping beans in phase 2147483647
+2018-12-21 21:46:34 INFO  SchedulerFactoryBean:765 - Shutting down Quartz Scheduler

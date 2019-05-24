@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+ 
+http://www.springframework.org/schema/beans/spring-beans-4.0.xsd
+http://www.springframework.org/schema/context 
+http://www.springframework.org/schema/context/spring-context-4.0.xsd">
+
+	<context:component-scan base-package="com.*" />
+	<bean id="properties"
+		class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+		<property name="location">
+			<value>classpath:com/webengine/application.properties</value>
+		</property>
+	</bean>
+
+
+	<bean id="myPath" class="java.nio.file.Paths" factory-method="get">
+		<constructor-arg value="${config.search.indexDir}" />
+		<constructor-arg>
+			<array />
+		</constructor-arg>
+	</bean>
+	
+
+	<bean id="luceneAnalyzer" class="org.apache.lucene.analysis.standard.StandardAnalyzer"></bean>
+
+	<bean id="queryParser" class="org.apache.lucene.queryparser.classic.QueryParser">
+		<constructor-arg value="contents"></constructor-arg>
+		<constructor-arg ref="luceneAnalyzer"></constructor-arg>
+	</bean>
+
+	<bean id="luceneDirectory" class="org.apache.lucene.store.FSDirectory"
+		factory-method="open">
+		<constructor-arg ref="myPath" />
+	</bean>
+
+	<bean id="indexWriter" class="org.apache.lucene.index.IndexWriter">
+		<constructor-arg ref="luceneDirectory" />
+		<constructor-arg>
+			<bean class="org.apache.lucene.index.IndexWriterConfig">
+				<constructor-arg ref="luceneAnalyzer" />
+				<property name="openMode" value="CREATE_OR_APPEND"></property>
+			</bean>
+		</constructor-arg>
+	</bean>
+
+	
+
+	
+
+
+	<bean id="crawlJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="crawler" />
+		<property name="targetMethod" value="crawl" />
+		<property name="concurrent" value="false"></property>
+	</bean>
+	
+	<bean id="checkFriendsJobDetail"
+		class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+		<property name="targetObject" ref="peerNeighborhood" />
+		<property name="targetMethod" value="checkCandidates" />
+		<property name="concurrent" value="false"></property>
+	</bean>
+	
+	<bean id="checkFriendTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="checkFriendsJobDetail" />
+		<property name="cronExpression" value="${cron.checkCandidates}" />
+	</bean>
+
+
+	<bean id="crawlTrigger"
+		class="org.springframework.scheduling.quartz.CronTriggerFactoryBean">
+		<property name="jobDetail" ref="crawlJobDetail" />
+		<property name="cronExpression" value="${cron.crawler}" />
+	</bean>
+
+
+	<bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+		<property name="jobDetails">
+			<list>
+				<ref bean="crawlJobDetail" />
+				<ref bean="checkFriendsJobDetail"/>
+			</list>
+		</property>
+		<property name="triggers">
+			<list>
+				<ref bean="crawlTrigger" />
+				<ref bean="checkFriendTrigger"/>
+			</list>
+		</property>
+	</bean>
+	
+	<bean id="viewResolver"
+		class="org.springframework.web.servlet.view.UrlBasedViewResolver">
+		<property name="viewClass"
+			value="org.springframework.web.servlet.view.JstlView" />
+		<property name="prefix" value="/WEB-INF/jsp/" />
+		<property name="suffix" value=".jsp" />
+	</bean>
+
+</beans>
